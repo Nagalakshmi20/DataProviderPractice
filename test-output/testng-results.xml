@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32035" started-at="2019-08-02T07:33:59Z" finished-at="2019-08-02T07:34:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32035" started-at="2019-08-02T07:33:59Z" finished-at="2019-08-02T07:34:31Z">
+      <class name="dataProvidersPractice.dataProvidersPractice.TestNgLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:dataProvidersPractice.dataProvidersPractice.TestNgLogin@39c0f4a]" name="setup" is-config="true" duration-ms="13110" started-at="2019-08-02T07:34:01Z" finished-at="2019-08-02T07:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Loginpage(java.lang.String, java.lang.String)[pri:0, instance:dataProvidersPractice.dataProvidersPractice.TestNgLogin@39c0f4a]" name="Loginpage" duration-ms="955" started-at="2019-08-02T07:34:14Z" data-provider="getLoginData" finished-at="2019-08-02T07:34:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginpage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:dataProvidersPractice.dataProvidersPractice.TestNgLogin@39c0f4a]" name="tearDown" is-config="true" duration-ms="811" started-at="2019-08-02T07:34:15Z" finished-at="2019-08-02T07:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:dataProvidersPractice.dataProvidersPractice.TestNgLogin@39c0f4a]" name="setup" is-config="true" duration-ms="13670" started-at="2019-08-02T07:34:16Z" finished-at="2019-08-02T07:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:dataProvidersPractice.dataProvidersPractice.TestNgLogin@39c0f4a]" name="login" duration-ms="4" started-at="2019-08-02T07:34:30Z" finished-at="2019-08-02T07:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:dataProvidersPractice.dataProvidersPractice.TestNgLogin@39c0f4a]" name="tearDown" is-config="true" duration-ms="1064" started-at="2019-08-02T07:34:30Z" finished-at="2019-08-02T07:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dataProvidersPractice.dataProvidersPractice.TestNgLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
